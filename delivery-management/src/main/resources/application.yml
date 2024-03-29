@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: delivery-management
+  profiles:
+    include:
+      - db
+      - common
+      - email
+      - security
